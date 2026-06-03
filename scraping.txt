@@ -1,0 +1,33 @@
+I want to look at "The Most Popular Cities" Table and extract their City Name, Temperature, and Current Time
+
+
+Table Row (tr) 2 or 3 cities:
+<tr>
+    (EACH CITY HAS 4 td)
+    <td><a href="/weather/ghana/accra">Accra</a><span id="p0s" class="wds"></span></td>
+    <td id="p0" class="r">Wed 2:55 am</td>
+    <td class="r"><img src="//c.tadst.com/gfx/w/svg/wt-13.svg" alt="Clear. Warm." title="Clear. Warm." width="40" height="40"></td>
+    <td class="rbi">81&nbsp;°F</td>
+
+    <td><a href="/weather/canada/edmonton">Edmonton</a><span id="p47s" class="wds"> *</span></td>
+    <td id="p47" class="r">Tue 8:55 pm</td>
+    <td class="r"><img src="//c.tadst.com/gfx/w/svg/wt-7.svg" alt="Low clouds. Cool." title="Low clouds. Cool." width="40" height="40"></td>
+    <td class="rbi">48&nbsp;°F</td>
+
+    <td><a href="/weather/india/new-delhi">New Delhi</a><span id="p94s" class="wds"></span></td>
+    <td id="p94" class="r">Wed 8:25 am</td>
+    <td class="r"><img src="//c.tadst.com/gfx/w/svg/wt-9.svg" alt="Fog. Warm." title="Fog. Warm." width="40" height="40"></td>
+    <td class="rbi">82&nbsp;°F</td></tr>
+
+City Name (td):
+<td><a href="/weather/ghana/accra">Accra</a><span id="p0s" class="wds"></span></td>
+
+City Time (td):
+<td id="p0" class="r">Wed 2:55 am</td>
+
+City Img (td) (WONT USE):
+<td class="r"><img src="//c.tadst.com/gfx/w/svg/wt-13.svg" alt="Clear. Warm." title="Clear. Warm." width="40" height="40"></td>
+
+City Temp (td):
+<td class="rbi">81&nbsp;°F</td>
+
